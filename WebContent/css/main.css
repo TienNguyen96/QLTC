@@ -1,0 +1,8 @@
+@CHARSET "ISO-8859-1";
+/***************************
+navbar navbar-inverse navbar-fixed-top
+****************************/
+#bs-example-navbar-collapse-1{
+	padding: auto auto auto 30px;
+	margin: 0 0px	;
+}
