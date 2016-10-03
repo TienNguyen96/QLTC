@@ -18,6 +18,7 @@ div h1.page-header{
 	bottom : 0;
 	color: #7bd8f4;
 	font-weight: bold;
+	text-shadow: 3px 3px 3px #ffffff;
 }
 #myCarousel{
 	background-color: #000;
@@ -36,8 +37,22 @@ ul list-nofitication index.html
 div.container ul.ul-nofitication{
 	list-style: none;
 }
-div.container #foo:focus { 
-	border: 2px solid red; 
+.container .btn-panel{
+	box-shadow: 0px 2px 5px #54e05f;
+}
+/**************************
+Navigation bs-example-navbar-collapse-2
+**************************/
+#bs-example-navbar-collapse-2 , .navbar-static-top{	
+	background-color: #019a93;
+	margin-bottom: 0 0px;
+	padding-bottom: 0 0px;	
+}
+#bs-example-navbar-collapse-2 a{
+	font-size : 16px;
+	font-weight : bolder;
+	color:  #000080;
+	box-shadow: 3px 0px 3px #ffffff;	
 }
 /***************************
 search area
@@ -109,4 +124,14 @@ div li.nofi-li-grid{
 	border-bottom-style: solid;	
 	border-bottom-width:thin;
 	border-bottom-color: gray;		
+}
+/********
+Journals & Conferences
+********/
+div.container .journals{
+	margin-left : -15px;
+}
+
+div.container .conferences{
+	margin-right: 15px;
 }
