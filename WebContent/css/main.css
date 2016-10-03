@@ -1,18 +1,112 @@
 @CHARSET "ISO-8859-1";
 /***************************
-header page
+background index.html
 ****************************/
-div#bg{
+.background-allsite{
 	position:fixed;
 	top:0;left:0;
 	width:100%;
 	height:100%;
 	z-index:-1;
 }  
+/***************************
+header
+****************************/
 div h1.page-header{
 	height: 100%;
 	top : 0;
 	bottom : 0;
 	color: #7bd8f4;
 	font-weight: bold;
+}
+#myCarousel{
+	background-color: #000;
+}
+/***************************
+button index.html
+****************************/
+div a.btn-panel{
+	background-color: green;
+	color: white;
+	left: 100px;
+}
+/***************************
+ul list-nofitication index.html
+****************************/
+div.container ul.ul-nofitication{
+	list-style: none;
+}
+div.container #foo:focus { 
+	border: 2px solid red; 
+}
+/***************************
+search area
+****************************/
+.srch_area, .srch_area_inner {
+	height: 38px;
+	line-height: 38px
+}
+.srcharea_wrapper {
+	background-color: #1ba1e4;
+	min-height: 79px;
+	border-top: 1px solid #0074aa
+}
+.srch_area {
+	border: 1px solid #fff;
+	background: url(../assets/search_icon.png) right 0 no-repeat #cecccc;
+	padding-left: 10px;
+	width: 400px;
+	float: left;
+}
+.srch_btn {
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #1abc9c;
+}
+.srch_btn:hover {
+	background-color: #0c9076
+}
+.srch_btn:before{
+  content:"";
+  width:0px;
+  height:0px;
+  border-bottom:33px solid rgba(26,188,156,1);
+  border-left:17px solid transparent;
+  position:absolute;
+  right:100%;
+  top:0px;
+}
+.srch_btn {
+	border: 1px solid #fff;
+	padding: 7.2px 15px;
+	margin-left: -2.8px
+}
+.social_ic ul {
+	margin: 20px 0!important;
+	padding: 0;
+	float: left!important
+}
+.socialIc ul {
+	margin: 10px 0;
+	padding: 0;
+	float: right
+}
+.m-t {
+	margin-top: 20px
+}
+/**************************
+container index.html
+**************************/
+.bg-white {
+	background-color: #FFF;
+	box-shadow: 0 8px 8px -2px #323232;
+}
+.padding-b-0 {
+  padding-bottom: 0 !important;
+}
+div li.nofi-li-grid{	
+	margin : 0 0px;		
+	border-bottom-style: solid;	
+	border-bottom-width:thin;
+	border-bottom-color: gray;		
 }

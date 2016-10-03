@@ -9,11 +9,13 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>Modern Business - Start Bootstrap Template</title>
+<title>TẠP CHÍ KHOA HỌC</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <link href="../css/main.css" rel="stylesheet">
+<link href="../css/bootstrap-social.css" rel="stylesheet"
+	type="text/css">
 
 <!-- Custom CSS -->
 <link href="../css/modern-business.css" rel="stylesheet">
@@ -21,6 +23,7 @@
 <!-- Custom Fonts -->
 <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet"
 	type="text/css">
+
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +36,9 @@
 
 <body>
 	<!-- background -->
-	<div id="bg"><img width="100%" height="100%" src="../assets/background.jpg" /></div> 
+	<div class="background-allsite">
+		<img width="100%" height="100%" src="../assets/background.jpg" />
+	</div>
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
@@ -52,19 +57,24 @@
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="index.html"><img alt=""
-							src="../assets/home_icon.png" align="left"
-							style="max-width: 16px; max-height: 16px">Trang Chủ</a></li>
-					<li><a href="register.html"> <img alt=""
-							src="../assets/register_icon.png" align="left"
-							style="max-width: 16px; max-height: 16px">Đăng Ký
+					<li><a href="index.html" title="Home"> <span class="icon"><i
+								class="fa fa-home" title="Trang Chủ"></i></span> <span>Trang Chủ</span>
 					</a></li>
-					<li><a href="contact.html"><img alt=""
-							src="../assets/contact_icon.png" align="left"
-							style="max-width: 16px; max-height: 16px">Liên Hệ</a></li>
-					<li><a href="signin.html"><img alt=""
-							src="../assets/signin_icon.png" align="left"
-							style="max-width: 16px; max-height: 16px">Đăng Nhập</a></li>
+					<li><a href="register.html" title="Đăng Ký"> <span
+							class="icon"><i class="fa fa-share-alt" title="Join Us"></i></span>
+							<span>Đăng Ký</span>
+					</a></li>
+
+					<li><a href="contact.html" title="Liên Hệ"> <span
+							class="icon"><i class="fa fa-phone"></i></span> <span>Liên
+								Hệ</span>
+					</a></li>
+
+					<li><a href="signin.html" title="Đăng Nhập"> <span
+							class="icon"><i class="fa fa-user" title="Đăng Nhập"></i></span>
+							<span>Đăng Nhập</span>
+					</a></li>
+
 					<!-- 
 					<li class="dropdown"><a href="#" class="dropdown-toggle"
 						data-toggle="dropdown">Portfolio <b class="caret"></b></a>
@@ -100,7 +110,7 @@
 		<!-- /.container -->
 	</nav>
 	<!-- HEADER PAGE  -->
-	<div >
+	<div>
 		<h1 class="page-header" align="center">TẠP CHÍ KHOA HỌC ĐẠI HỌC
 			SƯ PHẠM KỸ THUẬT</h1>
 	</div>
@@ -112,7 +122,6 @@
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
 		</ol>
-
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner">
 			<div class="item active">
@@ -145,57 +154,178 @@
 			data-slide="next"> <span class="icon-next"></span>
 		</a>
 	</header>
+	<!-- Srch Area -->
+	<div class="srcharea_wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="text-left col-xs-12 col-md-6 socialIc social_ic">
+					<ul class="list-inline">
+						<li><a target="_blank" title="slideshare"
+							class="btn btn-social-icon btn-openid" href="#"> <span
+								class="fa fa-slideshare"></span></a></li>
+						<li><a title="Facebook"
+							class="btn btn-social-icon btn-facebook"
+							onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"
+							href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a title="Twitter"
+							class="btn btn-social-icon btn-twitter"
+							onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);"
+							href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a title="Google+" class="btn btn-social-icon btn-google"
+							onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-google']);"
+							href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+						<!-- <li> <a title="Pinterest" class="btn btn-social-icon btn-pinterest" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-pinterest']);" href="http://pinterest.com/omicspublishing/" target="_blank"><i class="fa fa-pinterest"></i></a> </li>-->
+						<li><a title="LinkedIn"
+							class="btn btn-social-icon btn-linkedin"
+							onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-linkedin']);"
+							href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a class="btn btn-social-icon btn-openid" href="#"
+							target="_blank"><span title="Rss" class="fa fa-rss"></span></a></li>
+						<li><a
+							onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-tumblr']);"
+							class="btn btn-social-icon btn-google" href="#" target="_blank"><span
+								title="Youtube" class="fa fa-youtube"></span></a></li>
+						<li><a target="_blank" href="#"
+							onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-tumblr']);"
+							class="btn btn-social-icon btn-openid" title="Blog"><i
+								class="icBlog"></i></a></li>
+						<!--<li> <a title="Flickr" class="btn btn-social-icon btn-flickr" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-flickr']);" href="http://www.flickr.com/photos/omics-publishing-group/" target="_blank"><i class="fa fa-flickr"></i></a></li>-->
+					</ul>
+				</div>
+				<div class="col-xs-12 col-md-6 m-t">
+					<form class="form-horizontal pull-right" action="#"
+						id="top-search-form" role="search">
+						<div class="form-group">
+							<div class="col-sm-10">
+								<div class="input-group">
+									<input type="text" placeholder="Search.." id="keyword"
+										name="keyword" pattern=".{4,40}" required
+										title="4 to 40 characters" autocomplete="off"
+										class="srch_area"> <span class="input-group-btn">
+										<input type="submit" value="Go" name="search"
+										class="btn btn-info srch_btn">
+									</span>
+								</div>
+							</div>
+						</div>
+						<div id="suggestions_holder" class="suggestions"
+							style="display: none;"></div>
+						<script type="text/javascript">
+							$("#keyword").coolautosuggest({
+								url : "#",
+								minChars : 4,
+								submitOnSelect : true
+							});
+						</script>
 
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Srch Area -->
 	<!-- Page Content -->
-	<div class="container">
-		
+	<div class="container bg-white">
 		<!-- Marketing Icons Section -->
 		<div class="row">
-			<div class="col-md-4">
-				<div class="panel panel-default">
+			<div class="col-xs-12 col-sm-4">
+				<div class="panel panel-default" style="height: 450px">
 					<div class="panel-heading">
-						<h4>
-							<i class="fa fa-fw fa-check"></i> Bootstrap v3.2.0
+						<h4 align="left" style="color: red">
+							<i><img alt="" src="../assets/world_icon.png"></i>
+							NOFITICATIONS
 						</h4>
 					</div>
-					<div class="panel-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Itaque, optio corporis quae nulla aspernatur in alias at numquam
-							rerum ea excepturi expedita tenetur assumenda voluptatibus
-							eveniet incidunt dicta nostrum quod?</p>
-						<a href="#" class="btn btn-default">Learn More</a>
+					<div class="equal-height padding-b-0">
+						<ul class="nofi-list list-unstyled" style="list-style: none;">
+							<li class="row nofi-li-grid">
+								<div class="panel-body">
+									<span style="color: red; font-weight: bold;">></span> <a
+										title="item 1" href="#">nofitication item 1</a>
+								</div>
+							</li>
+							<li class="row nofi-li-grid">
+								<div class="panel-body">
+									<span style="color: red; font-weight: bold;">></span> <a
+										title="item 2" href="#">nofitication item 2</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<br>
+					<div align="center" style="margin-bottom: 0 0">
+						<a href="#" class="btn btn-default btn-panel" type="button">Xem
+							Thêm</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="panel panel-default">
+			<div class="col-xs-12 col-sm-4">
+				<div class="panel panel-default" style="height: 450px">
 					<div class="panel-heading">
-						<h4>
-							<i class="fa fa-fw fa-gift"></i> Free &amp; Open Source
+						<h4 align="left" style="color: red">
+							<i><img alt="" src="../assets/book_icon.png"></i> Free
+							&amp; SCIENTIFIC JOURNALS
 						</h4>
 					</div>
-					<div class="panel-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Itaque, optio corporis quae nulla aspernatur in alias at numquam
-							rerum ea excepturi expedita tenetur assumenda voluptatibus
-							eveniet incidunt dicta nostrum quod?</p>
-						<a href="#" class="btn btn-default">Learn More</a>
+					<div class="equal-height padding-b-0">
+						<ul class="nofi-list list-unstyled" style="list-style: none;">
+							<li class="row nofi-li-grid">
+								<div class="panel-body">
+									<span style="color: red; font-weight: bold;">></span> <a
+										title="item 1" href="#">SCIENTIFIC JOURNALS item 1</a>
+								</div>
+								<div>
+									<p>DateTime MM:DD-DD, YYYY City, Country</p>
+								</div>
+							</li>
+							<li class="row nofi-li-grid">
+								<div class="panel-body">
+									<span style="color: red; font-weight: bold;">></span> <a
+										title="item 2" href="#">Free &amp; SCIENTIFIC JOURNALS
+										item 2</a>
+								</div>
+								<div>
+									<p>DateTime MM:DD-DD, YYYY City, Country</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<br>
+					<div align="center" style="margin-bottom: 0 0">
+						<a href="#" class="btn btn-default btn-panel" type="button">Xem
+							Thêm</a>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4">
-				<div class="panel panel-default">
+			<div class="col-xs-12 col-sm-4">
+				<div class="panel panel-default" style="height: 450px">
 					<div class="panel-heading">
-						<h4>
-							<i class="fa fa-fw fa-compass"></i> Easy to Use
+						<h4 align="left" style="color: red">
+							<i><img alt="" src="../assets/event_icon.png"></i> EVENT
 						</h4>
 					</div>
-					<div class="panel-body">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Itaque, optio corporis quae nulla aspernatur in alias at numquam
-							rerum ea excepturi expedita tenetur assumenda voluptatibus
-							eveniet incidunt dicta nostrum quod?</p>
-						<a href="#" class="btn btn-default">Learn More</a>
+					<div class="equal-height padding-b-0">
+						<ul class="nofi-list list-unstyled" style="list-style: none;">
+							<li class="row nofi-li-grid">
+								<div class="panel-body">
+									<p>
+										Nham to chuc san choi cho cac sinh vien, truong dai hoc SPKT
+										gui den cac ban sinh vien thu moi tham gia cuoc thi " <span><a
+											title="item 1" href="#">EVENT item 1</a></span>" ve cac linh vuc ky
+										thuat
+									</p>
+								</div>
+								<div>
+									<span style="color: red; font-weight: bold;">> <a
+										title="item 1" href="#">EVENT Information item 1</a></span>"
+								</div>
+							</li>
+						</ul>
+					</div>
+					<br>
+					<div align="center" style="margin-bottom: 0 0">
+						<a href="#" class="btn btn-default btn-panel" type="button">Xem
+							Thêm</a>
 					</div>
 				</div>
 			</div>
@@ -305,6 +435,7 @@
 
 	<!-- jQuery -->
 	<script src="../js/jquery.js"></script>
+	<script type="text/javascript" src="..js/grids.min.js"></script>
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="../js/bootstrap.min.js"></script>
@@ -314,6 +445,31 @@
 		$('.carousel').carousel({
 			interval : 5000 //changes the speed
 		})
+	</script>
+	<script type="text/javascript">
+		// Equal Height
+		var EqualHeight = function() {
+			"use strict";
+	
+			// Handle Equal Height
+			var handleEqualHeight = function() {
+				$(function($) {
+					$('.equal-height').responsiveEqualHeightGrid();
+					$('.equal-height-1').responsiveEqualHeightGrid();
+				});
+			};
+	
+			return {
+				init : function() {
+					handleEqualHeight(); // initial setup for equal height
+				}
+			};
+		}();
+	
+		$(document).ready(function() {
+			"use strict";
+			EqualHeight.init();
+		});
 	</script>
 
 </body>
